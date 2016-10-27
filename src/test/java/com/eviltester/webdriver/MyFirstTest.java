@@ -3,8 +3,9 @@ package com.eviltester.webdriver;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-// import the driver class to allow us to use Firefox Driver
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+// import the driver class to allow us to use Firefox Driver
 // uncomment the next line to use the MarionetteDriver
 //import org.openqa.selenium.firefox.MarionetteDriver;
 
@@ -33,7 +34,7 @@ public class MyFirstTest {
         //System.setProperty("webdriver.gecko.driver", marionetteDriverLocation);
         //WebDriver driver = new MarionetteDriver();
 
-        driver.navigate().to("http://seleniumsimplified.com");
+        driver.navigate().to("http://seleniumsimplified.com1");
 
         Assert.assertTrue("title should start differently",
                             driver.getTitle().startsWith("Selenium Simplified"));
